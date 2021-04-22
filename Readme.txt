@@ -8,7 +8,7 @@ Parts needed:
 4. DHT22 module
 5. Cables for connections
 
-Install Node-red node for node-ght-sensor: npm install node-red-contrib-dht-sensor
+Install Node-red node for node-dht-sensor: npm install node-red-contrib-dht-sensor
 Import EmbeddedFinal.json to Node-RED
 
 Connect DHT22 to 3.3V, Ground and GPIO4 (pins 1, 6, 7 on Raspberry Pi)
