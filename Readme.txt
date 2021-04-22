@@ -1,3 +1,6 @@
+Temperature and humidity meter with automatic fan control.
+If temperature rises above 25 degrees celcius or humidity rises above 45%, the fan connected turns on.
+
 Parts needed:
 1. Raspberry Pi
 2. 5V fan
@@ -5,6 +8,7 @@ Parts needed:
 4. DHT22 module
 5. Cables for connections
 
+Install Node-red node for node-ght-sensor: npm install node-red-contrib-dht-sensor
 Import EmbeddedFinal.json to Node-RED
 
 Connect DHT22 to 3.3V, Ground and GPIO4 (pins 1, 6, 7 on Raspberry Pi)
